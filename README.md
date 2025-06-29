@@ -29,8 +29,6 @@ Sadly, we do not have a bayesian framework for delay estimation: the median valu
 enormously on the chosen initial guess and meta-parameters. 
 It's a bit of a nightmare, and I have tried a lot of different things over the past 2 years; 
 having settled on what you'll find below.
-But you will get different time delays when tuning the meta parameters, especially with the more difficult cases.
-
 
 ### How to use: this repository
 Define a working directory in `config.yaml`. I recommend some fast SSD storage if available, because 
