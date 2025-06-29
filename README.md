@@ -46,9 +46,15 @@ cd /your/clone/of/this/repository
 will create a virtual environment, clone my branch of `PyCS3`, all in your working directory, and optionally run
 the `initial_guess.ipynb` notebook to create pickled light curves ready for use in the next steps.
 
+You can also play with the initial guess through jupyter lab, installed in the environment by `setup.py`:
+```bash
+source /your_yaml_defined_workdir/td_release_env/bin/activate
+jupyter lab
+```
+
 To prepare the scene for the subsequent scripts, do
 ```bash
-source /your/venv/bin/activate
+source  /your_yaml_defined_workdir/td_release_env/bin/activate
 cd pycs3_scripts
 python prepare_pycs3_runs.py
 ```
