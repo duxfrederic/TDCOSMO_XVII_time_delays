@@ -11,7 +11,7 @@ This repository contains the extracted photometry, and time delay estimation scr
 This is the most critical part, as, especially with short monitoring baselines, different photometric extractions
 can yield widely different time delays and uncertainty.
 However, this part is very demanding in terms of CPU time and storage, so it is not reproduced in this repository.
-However, do let me know if you want to reproduce one of the lenses: I'll send you the (pre-reduced) data. 
+However, the raw data necessary to reproduce this step are slowly becoming public in the ESO archives.  
 
 ### Data pre-reduction
 We performed standard bias and subtraction, and division by a daily master-sky-flat.
